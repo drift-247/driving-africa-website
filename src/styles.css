@@ -1,0 +1,18 @@
+@import 'tailwindcss';
+@import '@fontsource/montserrat-alternates';
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#app {
+  min-height: 100%;
+  /*font-family: 'Montserrat Alternates', sans-serif;*/
+}
+
+body {
+  margin: 0;
+  font-family: 'Montserrat Alternates', sans-serif;
+}
