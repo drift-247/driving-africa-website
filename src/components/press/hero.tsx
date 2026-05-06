@@ -23,17 +23,16 @@ export function PressHero() {
         </h1>
         
         <p className="text-xl text-slate-300 mb-12 max-w-2xl mx-auto leading-relaxed">
-          Discover the latest updates, strategic announcements, and institutional milestones from Driving Africa Digital Services Limited as we shape the digital future of the continent.
+          We're early-stage and building in public. This page will grow as we do. For any press enquiries, reach out directly.
         </p>
         
         <div className="flex flex-wrap items-center justify-center gap-5">
-          <button className="bg-accent text-primary px-10 py-4 rounded-xl font-bold text-xs tracking-widest uppercase hover:bg-white transition-all hover:translate-y-[-2px] hover:shadow-xl hover:shadow-accent/20">
+          <a 
+            href="mailto:drivingafricadigital.ng@gmail.com" 
+            className="bg-accent text-primary px-10 py-4 rounded-xl font-bold text-xs tracking-widest uppercase hover:bg-white transition-all hover:translate-y-[-2px] hover:shadow-xl hover:shadow-accent/20"
+          >
             Media Inquiry
-          </button>
-          <button className="border border-white/20 bg-white/5 backdrop-blur-sm text-white px-10 py-4 rounded-xl font-bold text-xs tracking-widest uppercase hover:bg-white/10 transition-all hover:translate-y-[-2px] flex items-center gap-3">
-            <Download className="w-4 h-4" />
-            Download Kit
-          </button>
+          </a>
         </div>
       </div>
       

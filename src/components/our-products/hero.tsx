@@ -5,8 +5,8 @@ export function ProductsHero() {
       <h1 className="text-5xl md:text-6xl font-black text-primary mb-8 leading-tight max-w-2xl">
         Building the tools for Africa's digital expansion.
       </h1>
-      <p className="text-lg text-text-muted leading-relaxed max-w-xl">
-        We design and deploy high-performance software solutions tailored to the unique infrastructure and market dynamics of the African continent.
+      <p className="text-lg text-text-muted leading-relaxed max-w-2xl">
+        We start with a problem, build with purpose, and ship products that work for real people in real African conditions.
       </p>
     </section>
   )

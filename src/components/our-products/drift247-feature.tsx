@@ -13,7 +13,7 @@ export function Drift247Feature() {
           </div>
           
           <p className="text-text-muted mb-12 leading-relaxed">
-            Our flagship ride-hailing platform engineered for resilience and efficiency. Drift247 bridges the gap between urban mobility and digital convenience, providing reliable transport 24/7.
+            Nigeria's safety-first ride-hailing platform. Built from firsthand experience of the gaps in Nigeria's transportation sector — driver welfare, passenger safety, and payment reliability. Drift247 addresses all three from the ground up.
           </p>
 
           <div className="grid grid-cols-2 gap-8 mb-12">
@@ -21,34 +21,34 @@ export function Drift247Feature() {
               <ShieldCheck className="w-5 h-5 text-accent shrink-0" />
               <div>
                 <h4 className="text-sm font-bold text-primary">Safety First</h4>
-                <p className="text-[10px] text-text-muted uppercase tracking-widest mt-1">Real-time Tracking</p>
+                <p className="text-[10px] text-text-muted uppercase tracking-widest mt-1">Verified driver onboarding</p>
               </div>
             </div>
             <div className="flex items-start gap-3">
               <Wallet className="w-5 h-5 text-accent shrink-0" />
               <div>
-                <h4 className="text-sm font-bold text-primary">Local Payments</h4>
-                <p className="text-[10px] text-text-muted uppercase tracking-widest mt-1">Integrated Wallets</p>
-              </div>
-            </div>
-            <div className="flex items-start gap-3">
-              <Zap className="w-5 h-5 text-accent shrink-0" />
-              <div>
-                <h4 className="text-sm font-bold text-primary">Low Latency</h4>
-                <p className="text-[10px] text-text-muted uppercase tracking-widest mt-1">Optimized for 2G/3G</p>
+                <h4 className="text-sm font-bold text-primary">Wallet Payments</h4>
+                <p className="text-[10px] text-text-muted uppercase tracking-widest mt-1">Cashless & Secure</p>
               </div>
             </div>
             <div className="flex items-start gap-3">
               <Users className="w-5 h-5 text-accent shrink-0" />
               <div>
                 <h4 className="text-sm font-bold text-primary">Driver Hub</h4>
-                <p className="text-[10px] text-text-muted uppercase tracking-widest mt-1">Empowering Livelihoods</p>
+                <p className="text-[10px] text-text-muted uppercase tracking-widest mt-1">Community Support</p>
+              </div>
+            </div>
+            <div className="flex items-start gap-3">
+              <ShieldCheck className="w-5 h-5 text-accent shrink-0" />
+              <div>
+                <h4 className="text-sm font-bold text-primary">Real-Time Tracking</h4>
+                <p className="text-[10px] text-text-muted uppercase tracking-widest mt-1">Live trip monitoring</p>
               </div>
             </div>
           </div>
 
           <button className="bg-primary text-white px-10 py-4 text-xs font-bold tracking-widest uppercase flex items-center gap-2 hover:bg-accent transition-colors group">
-            Visit Product <ChevronRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
+            Visit Drift247 <ChevronRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
           </button>
         </div>
 

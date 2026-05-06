@@ -18,87 +18,99 @@ const NAV_LINKS: NavLink[] = [
 export function Navbar() {
   const [isOpen, setIsOpen] = useState(false)
   const location = useLocation()
-
-  // Normalize paths for comparison (remove trailing slashes)
   const currentPath =
     location.pathname === '/' ? '/' : location.pathname.replace(/\/$/, '')
 
-  // Close menu when route changes
   useEffect(() => {
     setIsOpen(false)
   }, [location.pathname])
 
   return (
-    <header className="sticky top-0 z-50 w-full bg-white/90 backdrop-blur-lg border-b border-slate-100/50">
-      <nav className="max-w-7xl mx-auto w-full">
-        <div className="flex items-center justify-between px-6 md:px-8 py-5">
-          <Link to="/" className="flex items-center z-50">
-            <span className="text-xl font-black tracking-tighter text-primary cursor-pointer hover:opacity-80 transition-opacity">
+    <header className="sticky top-0 z-50 w-full bg-white border-b border-gray-100 shadow-sm">
+      <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="flex justify-between items-center h-20">
+          {/* Logo - Matching your bold blue style */}
+          <Link to="/" className="flex-shrink-0">
+            <span className="text-[#0A2540] text-xl font-black tracking-tight uppercase">
               DRIVING AFRICA
             </span>
           </Link>
 
-          {/* Desktop Navigation */}
-          <div className="hidden md:flex items-center space-x-10">
+          {/* Desktop Links - Matching the screenshot underline style */}
+          <div className="hidden md:flex items-center space-x-8">
             {NAV_LINKS.map((link) => {
-              const normalizedLinkTo =
-                link.to === '/' ? '/' : link.to.replace(/\/$/, '')
-              const isActive = currentPath === normalizedLinkTo
-
+              const isActive =
+                currentPath ===
+                (link.to === '/' ? '/' : link.to.replace(/\/$/, ''))
               return (
                 <Link
                   key={link.to}
                   to={link.to}
-                  className={`nav-link ${isActive ? 'active' : ''}`}
+                  className={`relative py-2 text-xs font-bold tracking-wider transition-colors hover:text-[#0A2540] ${
+                    isActive ? 'text-[#0A2540]' : 'text-slate-500'
+                  }`}
                 >
                   {link.label}
+                  {isActive && (
+                    <span className="absolute bottom-0 left-0 w-full h-0.5 bg-[#0A2540]" />
+                  )}
                 </Link>
               )
             })}
+          </div>
+
+          {/* Action Button - Matching the dark navy rounded box */}
+          <div className="hidden md:block">
             <Link to="/products">
-              <button className="btn-primary px-8 py-2.5 shadow-lg shadow-primary/10">
+              <button className="bg-[#0A2540] text-white px-6 py-2.5 rounded text-[10px] font-bold tracking-widest uppercase hover:bg-slate-800 transition-all">
                 GET STARTED
               </button>
             </Link>
           </div>
 
-          {/* Mobile Menu Toggle */}
-          <button
-            className="md:hidden z-50 p-2 text-primary hover:bg-slate-50 rounded-lg transition-colors"
-            onClick={() => setIsOpen(!isOpen)}
-          >
-            {isOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
-          </button>
+          {/* Mobile Menu Button */}
+          <div className="md:hidden flex items-center">
+            <button
+              onClick={() => setIsOpen(!isOpen)}
+              className="text-[#0A2540] p-2"
+            >
+              {isOpen ? <X size={24} /> : <Menu size={24} />}
+            </button>
+          </div>
         </div>
 
-        {/* Mobile Navigation Menu */}
+        {/* Mobile Menu Dropdown - Matches the clean, white aesthetic */}
         <div
-          className={`
-          fixed inset-0 bg-white z-40 md:hidden transition-all duration-300 ease-in-out
-          ${isOpen ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-full pointer-events-none'}
-        `}
+          className={`md:hidden overflow-hidden transition-all duration-300 ease-in-out ${
+            isOpen ? 'max-h-[400px] border-t border-gray-100' : 'max-h-0'
+          }`}
         >
-          <div className="flex flex-col items-center justify-center h-full space-y-8 px-8">
+          <div className="flex flex-col space-y-4 py-6">
             {NAV_LINKS.map((link) => {
-              const normalizedLinkTo =
-                link.to === '/' ? '/' : link.to.replace(/\/$/, '')
-              const isActive = currentPath === normalizedLinkTo
-
+              const isActive =
+                currentPath ===
+                (link.to === '/' ? '/' : link.to.replace(/\/$/, ''))
               return (
                 <Link
                   key={link.to}
                   to={link.to}
-                  className={`text-2xl font-black tracking-widest uppercase transition-colors ${isActive ? 'text-accent' : 'text-primary'}`}
+                  className={`text-[11px] font-bold tracking-widest px-2 ${
+                    isActive
+                      ? 'text-[#0A2540] border-l-4 border-[#0A2540]'
+                      : 'text-slate-500'
+                  }`}
                 >
                   {link.label}
                 </Link>
               )
             })}
-            <Link to="/products" className="w-full max-w-xs">
-              <button className="btn-primary w-full py-5 rounded-2xl shadow-2xl shadow-primary/20 text-sm">
-                GET STARTED
-              </button>
-            </Link>
+            <div className="pt-2">
+              <Link to="/products">
+                <button className="w-full bg-[#0A2540] text-white py-3 rounded text-[10px] font-bold tracking-widest uppercase">
+                  GET STARTED
+                </button>
+              </Link>
+            </div>
           </div>
         </div>
       </nav>

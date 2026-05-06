@@ -7,9 +7,9 @@ export function FeaturedProduct() {
         {/* Left Side: Product Image */}
         <div className="relative group">
           <div className="absolute inset-0 bg-accent/20 rounded-3xl blur-3xl opacity-20 group-hover:opacity-40 transition-opacity"></div>
-          <img 
-            src="/drift247-preview.png" 
-            alt="Drift247 App Mockup" 
+          <img
+            src="/homepage-mockup.png"
+            alt="Drift247 App Mockup"
             className="relative w-full h-auto max-w-md mx-auto rounded-3xl shadow-2xl transform transition-transform duration-700 group-hover:scale-105"
           />
         </div>
@@ -17,18 +17,22 @@ export function FeaturedProduct() {
         {/* Right Side: Content */}
         <div>
           <span className="text-xs font-bold tracking-[0.3em] text-accent uppercase mb-4 block">
-            FEATURED PRODUCT
+            FLAGSHIP PRODUCT
           </span>
           <h2 className="text-5xl font-black mb-8">Drift247</h2>
           <p className="text-lg text-slate-300 mb-10 leading-relaxed max-w-lg">
-            The future of urban mobility in Africa. Drift247 provides safe, reliable, and affordable ride-hailing services optimized for local roads and payment systems.
+            A safety-first ride-hailing platform built for Nigeria. Drift247 was
+            born from a firsthand understanding of the gaps in Nigeria's
+            transportation sector - unreliable rides, driver welfare neglect,
+            and a lack of trust between riders and drivers. We're fixing that
+            from the ground up.
           </p>
 
           <ul className="space-y-4 mb-12">
             {[
-              'Real-time GPS Tracking',
-              'Cashless Payments Enabled',
-              '24/7 Safety Monitoring'
+              'Verified driver onboarding',
+              'Wallet-protected payments',
+              'Real-time safety monitoring',
             ].map((feature, i) => (
               <li key={i} className="flex items-center gap-3 text-slate-200">
                 <CheckCircle2 className="w-5 h-5 text-accent" />

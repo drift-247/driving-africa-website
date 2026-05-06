@@ -7,15 +7,15 @@ export function Cta() {
         
         <div className="max-w-xl relative z-10">
           <h2 className="text-4xl md:text-5xl font-black text-white mb-6 leading-tight">
-            Ready to drive the <br /> future?
+            Ready to move Africa forward?
           </h2>
           <p className="text-white/80 text-lg leading-relaxed">
-            Partner with us to build digital solutions that transform lives across the African continent.
+            We're building in public, growing fast, and always open to the right conversations.
           </p>
         </div>
 
         <button className="relative z-10 bg-primary text-white px-12 py-4 text-sm font-bold tracking-[0.2em] uppercase rounded-lg hover:bg-black transition-colors shadow-2xl">
-          Start Your Project
+          Get In Touch
         </button>
       </div>
     </section>

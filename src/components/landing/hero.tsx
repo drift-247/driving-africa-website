@@ -12,22 +12,22 @@ export function Hero() {
           </div>
           
           <h1 className="text-6xl md:text-7xl font-black text-primary mb-8 leading-[1.1] tracking-tight">
-            Driving Africa
+            Driving Africa Digital Services Limited
           </h1>
           
-          <p className="text-lg text-text-muted mb-10 max-w-md leading-relaxed">
-            We build high-impact digital solutions designed specifically for the African market, bridging the gap between innovation and local relevance.
+          <p className="text-lg text-text-muted mb-10 max-w-lg leading-relaxed">
+            We build safety-first digital products designed for the realities of the African market - starting with how people move.
           </p>
           
           <div className="flex flex-wrap gap-4">
             <Link to="/products">
               <button className="btn-primary">
-                Explore Portfolio <ArrowRight className="w-4 h-4" />
+                Explore Our Products <ArrowRight className="w-4 h-4" />
               </button>
             </Link>
             <Link to="/about">
               <button className="btn-outline">
-                Our Portfolio
+                Our Story
               </button>
             </Link>
           </div>

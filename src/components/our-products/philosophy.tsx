@@ -2,9 +2,9 @@ import { Globe } from 'lucide-react'
 
 export function ProductPhilosophy() {
   const principles = [
-    { id: '01', title: 'Infrastructure Resilience', desc: 'Systems built to thrive in volatile connectivity environments.' },
-    { id: '02', title: 'Hyper-Localization', desc: 'User experiences that respect and reflect local cultural and economic nuances.' },
-    { id: '03', title: 'Scalable Impact', desc: 'Every feature is measured by its ability to drive tangible economic progress.' }
+    { id: '01', title: 'Built for Local Realities', desc: 'Designed around African infrastructure, connectivity, and user behaviour' },
+    { id: '02', title: 'Safety and Trust First', desc: 'Every product puts user protection at its core' },
+    { id: '03', title: 'Scalable from Day One', desc: 'Built to grow beyond Nigeria, across the continent' }
   ]
 
   return (
@@ -15,7 +15,7 @@ export function ProductPhilosophy() {
       
       <h2 className="text-3xl font-black mb-8">Our Product Philosophy</h2>
       <p className="text-slate-300 mb-10 text-sm leading-relaxed">
-        We don't just build apps; we architect solutions. Our approach is grounded in three core principles:
+        We don't build for the sake of building. Every product we ship starts with a real gap in the African market and is held to three standards:
       </p>
 
       <div className="space-y-8">

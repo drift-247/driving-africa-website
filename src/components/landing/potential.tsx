@@ -3,19 +3,19 @@ import { TrendingUp, Users, MapPin } from 'lucide-react'
 export function Potential() {
   const cards = [
     {
-      icon: <TrendingUp className="w-6 h-6 text-primary" />,
-      title: 'Fastest Growing Market',
-      description: 'Home to some of the world\'s fastest-growing economies and a surging middle class ready for digital services.',
+      icon: <Users className="w-6 h-6 text-primary" />,
+      title: '500+',
+      description: 'Waitlist Sign-ups',
     },
     {
       icon: <Users className="w-6 h-6 text-primary" />,
-      title: 'Youngest Population',
-      description: 'A demographic dividend of digital natives who are rapidly adopting new technologies and shaping trends.',
+      title: '2',
+      description: 'Founding Team Members',
     },
     {
       icon: <MapPin className="w-6 h-6 text-primary" />,
-      title: 'Unmet Needs',
-      description: 'Immense opportunities to solve real-world problems in logistics, finance, and social services via innovation.',
+      title: '3',
+      description: 'Launch Cities',
     },
   ]
 
@@ -25,7 +25,7 @@ export function Potential() {
         <div className="text-center mb-20 max-w-2xl mx-auto">
           <h2 className="text-4xl font-black text-primary mb-6">Unlocking Africa's Potential</h2>
           <p className="text-text-muted leading-relaxed">
-            The continent is not just a market; it's the future of global innovation. We build for the unique opportunities of today to define the economy of tomorrow.
+            Nigeria alone has over 200 million people who deserve better digital infrastructure. We're starting with mobility and building outward - creating a portfolio of products that solve real problems for real people across the continent.
           </p>
         </div>
 
@@ -35,8 +35,8 @@ export function Potential() {
               <div className="w-16 h-16 bg-slate-50 rounded-2xl flex items-center justify-center mx-auto mb-8 group-hover:bg-primary group-hover:text-white transition-colors duration-300">
                 {card.icon}
               </div>
-              <h3 className="text-xl font-bold text-primary mb-4">{card.title}</h3>
-              <p className="text-text-muted text-sm leading-relaxed">
+              <h3 className="text-3xl font-black text-primary mb-2">{card.title}</h3>
+              <p className="text-text-muted font-bold uppercase tracking-widest text-xs">
                 {card.description}
               </p>
             </div>

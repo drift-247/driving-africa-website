@@ -2,19 +2,19 @@ import { TrendingUp, Target, Users, Shield } from 'lucide-react'
 
 export function CareersCulture() {
   const pillars = [
-    { icon: <TrendingUp className="w-5 h-5" />, title: 'Growth', desc: 'Continuous learning is in our DNA. We invest in your professional development through mentorship and resources.' },
-    { icon: <Target className="w-5 h-5" />, title: 'Impact', desc: 'Every line of code you write and every design you create shapes the digital ecosystem of an entire continent.' },
-    { icon: <Users className="w-5 h-5" />, title: 'Collaboration', desc: 'We don\'t work in silos. Our mission is cross-functional, combining the best of tech, design, and local expertise.' },
-    { icon: <Shield className="w-5 h-5" />, title: 'Ownership', desc: 'We trust our team. You take the lead on your projects and see your ideas through to real-world implementation.' }
+    { icon: <Target className="w-5 h-5" />, title: 'Impact', desc: 'Everything we build has a direct effect on how people move, pay, and live in Nigeria. Your work here counts.' },
+    { icon: <Shield className="w-5 h-5" />, title: 'Ownership', desc: 'We\'re a lean team. You won\'t be handed a small slice — you\'ll own meaningful work from day one.' },
+    { icon: <TrendingUp className="w-5 h-5" />, title: 'Growth', desc: 'We invest in the people who invest in the mission. You\'ll learn fast here.' },
+    { icon: <Users className="w-5 h-5" />, title: 'Collaboration', desc: 'No silos, no politics. The best idea wins, regardless of where it comes from.' }
   ]
 
   return (
     <section className="py-24 px-8 max-w-7xl mx-auto">
       <div className="grid md:grid-cols-2 gap-20 items-center">
         <div>
-          <h2 className="text-4xl font-black text-primary mb-6">Our Culture of Excellence</h2>
+          <h2 className="text-4xl font-black text-primary mb-6">How We Work</h2>
           <p className="text-text-muted text-lg leading-relaxed mb-12">
-            At Driving Africa, we believe that great products are born from an environment of trust, curiosity, and high standards. Join a team that values your voice and your vision.
+            We're early-stage, move fast, and take our work seriously — without taking ourselves too seriously.
           </p>
           <img 
             src="/careers-culture.png" 

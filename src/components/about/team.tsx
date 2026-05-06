@@ -1,17 +1,17 @@
 export function Team() {
   const team = [
-    { name: 'Borngreat Ikwutah', role: 'Frontend Engineer', img: '/team/borngreat.png' },
+    { name: 'Douglas Emmanuel', role: 'Lead Mobile Engineer', img: '/team/douglas.jpg' },
     { name: 'Glory Edem', role: 'Backend Engineer', img: '/team/glory.png' },
-    { name: 'Douglas', role: 'Mobile Engineer', img: '/team/douglas.jpg' },
-    { name: 'Stella', role: 'Cybersecurity Engineer', img: '/team/stella.jpeg' },
+    { name: 'Stella Effiong', role: 'Cybersecurity Engineer', img: '/team/stella.jpeg' },
+    { name: 'Borngreat Ikwetah', role: 'Frontend Engineer', img: '/team/borngreat.png' },
   ]
 
   return (
     <section className="py-24 px-8 max-w-7xl mx-auto">
       <div className="text-center mb-20">
-        <h2 className="text-3xl font-black text-primary mb-4">The Driving Force</h2>
+        <h2 className="text-4xl font-black text-primary mb-4">The Driving Force</h2>
         <p className="text-text-muted max-w-xl mx-auto">
-          A multi-disciplinary team of engineers and creators working together to build world-class digital products.
+          A lean, focused team building something meaningful for Africa.
         </p>
       </div>
       

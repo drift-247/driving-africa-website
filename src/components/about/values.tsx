@@ -2,10 +2,10 @@ import { Lightbulb, Shield, Globe2, Award } from 'lucide-react'
 
 export function Values() {
   const values = [
-    { icon: <Lightbulb />, title: 'Innovation', desc: 'We constantly push boundaries to find the most efficient solutions.' },
-    { icon: <Shield />, title: 'Integrity', desc: 'Trust is our foundation. We operate with transparency and excellence.' },
-    { icon: <Globe2 />, title: 'African-Centric', desc: 'We build for the continent, with deep local market understanding.' },
-    { icon: <Award />, title: 'Excellence', desc: 'Neary is never enough. We strive for the highest global standards.' }
+    { icon: <Shield />, title: 'Safety First', desc: 'Every product decision starts with one question: is this safe for our users?' },
+    { icon: <Globe2 />, title: 'African-Centric', desc: 'We build for Africa\'s realities, not imported assumptions.' },
+    { icon: <Shield />, title: 'Integrity', desc: 'We operate with transparency — with our users, our drivers, and our investors.' },
+    { icon: <Award />, title: 'Excellence', desc: 'We are a small team building at a high standard. Good enough is never enough.' }
   ]
 
   return (

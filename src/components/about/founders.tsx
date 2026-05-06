@@ -6,23 +6,23 @@ export function Founders() {
       name: 'Isaac Nnamdi', 
       role: 'Founder & CEO', 
       img: '/team/isaac-ceo.jpg', 
-      email: 'isaac.nnamdi@drivingafricadigitalserviceslimited.com',
-      bio: 'A visionary leader with a deep passion for leveraging technology to solve Africa\'s most complex infrastructure challenges.' 
+      email: 'isaac@drivingafricadigital.ng',
+      bio: 'Isaac knows the ride-hailing industry from the inside out. Having driven on platforms like Uber, he experienced firsthand the gaps in driver welfare, community, and passenger safety that existing platforms ignored. That experience became the foundation of Drift247. Isaac leads the company\'s vision, strategy, and growth from the UK.' 
     },
     { 
       name: 'Sarah Effiong', 
-      role: 'Chief Technology Officer', 
+      role: 'Co-founder & CTO', 
       img: '/team/sarah-cto.jpg', 
-      email: 'sarah.effiong@drivingafricadigitalserviceslimited.com',
-      bio: 'A seasoned software architect driving our technical strategy with a focus on high-performance, scalable systems.' 
+      email: 'sarah@drivingafricadigital.ng',
+      bio: 'Sarah is a seasoned backend and AI/ML engineer with extensive experience building and leading technical teams. She has served as both a technical lead and product lead across multiple projects, and brings the engineering depth and product thinking needed to build Drift247 the right way — from infrastructure to user experience.' 
     }
   ]
 
   return (
     <section className="py-24 bg-slate-50/50">
       <div className="max-w-7xl mx-auto px-8">
-        <h2 className="text-4xl font-black text-primary mb-4">The Visionaries</h2>
-        <p className="text-text-muted mb-16 max-w-2xl">The leadership driving the next phase of Africa's digital expansion.</p>
+        <h2 className="text-4xl font-black text-primary mb-4">Meet the Founders</h2>
+        <p className="text-text-muted mb-16 max-w-2xl">Two builders. One mission.</p>
         
         <div className="grid md:grid-cols-2 gap-12">
           {founders.map((founder, i) => (

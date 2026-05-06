@@ -46,6 +46,9 @@ export function ContactForm() {
         <button className="btn-primary w-full py-5 rounded-xl shadow-xl shadow-primary/20 hover:scale-[1.02] active:scale-95 transition-all">
           Send Message <Send className="w-4 h-4" />
         </button>
+        <p className="text-center text-text-muted text-xs mt-6 italic">
+          We typically respond within 1–2 business days.
+        </p>
       </form>
     </div>
   )
