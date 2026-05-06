@@ -1,18 +1,52 @@
 @import 'tailwindcss';
+/* @import '@tailwindcss/typography'; */
 @import '@fontsource/montserrat-alternates';
+
+@theme {
+  --color-primary: #001f3f;
+  --color-accent: #f0c05a;
+  --color-text-muted: #666666;
+  
+  --font-montserrat: 'Montserrat Alternates', sans-serif;
+}
 
 * {
   box-sizing: border-box;
 }
 
-html,
-body,
-#app {
-  min-height: 100%;
-  /*font-family: 'Montserrat Alternates', sans-serif;*/
-}
-
 body {
   margin: 0;
-  font-family: 'Montserrat Alternates', sans-serif;
+  font-family: var(--font-montserrat);
+  color: var(--color-primary);
+  background-color: #ffffff;
+}
+
+.nav-link {
+  @apply text-xs font-semibold tracking-widest uppercase transition-colors duration-300 relative;
+}
+
+.nav-link::after {
+  content: '';
+  @apply absolute -bottom-1 left-0 w-0 h-0.5 bg-primary transition-all duration-300;
+}
+
+.nav-link:hover::after,
+.nav-link.active::after {
+  @apply w-full;
+}
+
+.nav-link.active {
+  @apply text-accent;
+}
+
+.btn-primary {
+  @apply bg-[#001f3f] text-white px-8 py-3 text-xs font-bold tracking-widest uppercase transition-all duration-300 hover:opacity-90 flex items-center justify-center gap-2;
+}
+
+.btn-outline {
+  @apply border border-[#f0c05a] text-[#001f3f] px-8 py-3 text-xs font-bold tracking-widest uppercase transition-all duration-300 hover:bg-[#f0c05a]/10 flex items-center justify-center;
+}
+
+.hero-badge {
+  @apply inline-block bg-[#f0c05a]/30 text-[#8a6d2b] px-4 py-1.5 rounded-md text-[10px] font-bold tracking-[0.2em] uppercase mb-6;
 }

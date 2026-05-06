@@ -1,0 +1,75 @@
+import { Mail, Phone, Share2, Globe } from 'lucide-react'
+
+export function MediaContact() {
+  return (
+    <section className="py-32 px-8 bg-white">
+      <div className="max-w-7xl mx-auto flex flex-col md:flex-row rounded-[3rem] overflow-hidden border border-slate-100 shadow-2xl">
+        {/* Left Side: Contact Info */}
+        <div className="md:w-1/2 p-12 md:p-20 bg-white">
+          <h2 className="text-4xl md:text-5xl font-black text-primary mb-8 tracking-tight">
+            Media Contact
+          </h2>
+          <p className="text-slate-500 text-lg mb-16 leading-relaxed">
+            For press inquiries, interview requests, or further information regarding Driving Africa Digital Services Limited, please reach out to our communications team.
+          </p>
+
+          <div className="space-y-12 mb-16">
+            {/* Email */}
+            <div className="flex items-start gap-6">
+              <div className="w-12 h-12 bg-slate-50 rounded-xl flex items-center justify-center shrink-0">
+                <Mail className="w-6 h-6 text-primary" />
+              </div>
+              <div>
+                <span className="text-[10px] font-bold tracking-widest text-slate-400 uppercase block mb-1">
+                  EMAIL ADDRESS
+                </span>
+                <a href="mailto:press@holdco-tech.africa" className="text-2xl md:text-3xl font-black text-primary hover:text-accent transition-colors">
+                  press@holdco-tech.africa
+                </a>
+              </div>
+            </div>
+
+            {/* Phone */}
+            <div className="flex items-start gap-6">
+              <div className="w-12 h-12 bg-slate-50 rounded-xl flex items-center justify-center shrink-0">
+                <Phone className="w-6 h-6 text-primary" />
+              </div>
+              <div>
+                <span className="text-[10px] font-bold tracking-widest text-slate-400 uppercase block mb-1">
+                  OFFICE PHONE
+                </span>
+                <a href="tel:+254204409000" className="text-2xl md:text-3xl font-black text-primary hover:text-accent transition-colors">
+                  +254 (0) 20 440 9000
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div className="pt-12 border-t border-slate-100">
+            <p className="text-slate-400 text-sm italic mb-8">
+              Standard response time for media inquiries is within 24 business hours.
+            </p>
+            <div className="flex gap-4">
+              <button className="w-10 h-10 rounded-full border border-slate-200 flex items-center justify-center text-slate-400 hover:bg-primary hover:text-white hover:border-primary transition-all">
+                <Share2 className="w-4 h-4" />
+              </button>
+              <button className="w-10 h-10 rounded-full border border-slate-200 flex items-center justify-center text-slate-400 hover:bg-primary hover:text-white hover:border-primary transition-all">
+                <Globe className="w-4 h-4" />
+              </button>
+            </div>
+          </div>
+        </div>
+
+        {/* Right Side: Image */}
+        <div className="md:w-1/2 relative min-h-[500px]">
+          <img 
+            src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80&w=1000" 
+            alt="Media Relations Specialist" 
+            className="absolute inset-0 w-full h-full object-cover"
+          />
+          <div className="absolute inset-0 bg-primary/10"></div>
+        </div>
+      </div>
+    </section>
+  )
+}
