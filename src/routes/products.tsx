@@ -3,7 +3,7 @@ import { ProductsHero } from '#/components/our-products/hero'
 import { Drift247Feature } from '#/components/our-products/drift247-feature'
 import { ProductPhilosophy } from '#/components/our-products/philosophy'
 import { NextGenLogistics } from '#/components/our-products/next-gen'
-import { ProductNewsletter } from '#/components/our-products/newsletter'
+// import { ProductNewsletter } from '#/components/our-products/newsletter'
 
 export const Route = createFileRoute('/products')({
   component: ProductsPage,
@@ -18,7 +18,6 @@ function ProductsPage() {
         <ProductPhilosophy />
         <NextGenLogistics />
       </section>
-      <ProductNewsletter />
     </main>
   )
 }

@@ -23,15 +23,6 @@ export function Footer() {
       ],
     },
     {
-      title: 'PRODUCTS',
-      links: [
-        { label: 'Drift247', to: '/products' },
-        { label: 'Solutions', to: '/products' },
-        { label: 'Innovation', to: '/products' },
-        { label: 'Technology', to: '/products' },
-      ],
-    },
-    {
       title: 'LEGAL',
       links: [
         { label: 'Privacy Policy', to: '/privacy' },
@@ -53,7 +44,8 @@ export function Footer() {
               </span>
             </Link>
             <p className="text-slate-400 text-sm leading-relaxed max-w-xs">
-              Pioneering the future of transportation and logistics across the African continent with innovative digital solutions.
+              Pioneering the future of transportation and logistics across the
+              African continent with innovative digital solutions.
             </p>
           </div>
 
@@ -99,16 +91,26 @@ export function Footer() {
         {/* Bottom Bar */}
         <div className="pt-10 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-6">
           <p className="text-slate-500 text-xs tracking-wider">
-            © {currentYear} DRIVING AFRICA DIGITAL SERVICES LIMITED. ALL RIGHTS RESERVED.
+            © {currentYear} DRIVING AFRICA DIGITAL SERVICES LIMITED. ALL RIGHTS
+            RESERVED.
           </p>
           <div className="flex items-center space-x-8">
-            <Link to="/privacy" className="text-slate-500 hover:text-white text-xs tracking-wider transition-colors">
+            <Link
+              to="/privacy"
+              className="text-slate-500 hover:text-white text-xs tracking-wider transition-colors"
+            >
               PRIVACY
             </Link>
-            <Link to="/terms" className="text-slate-500 hover:text-white text-xs tracking-wider transition-colors">
+            <Link
+              to="/terms"
+              className="text-slate-500 hover:text-white text-xs tracking-wider transition-colors"
+            >
               TERMS
             </Link>
-            <Link to="/cookie-policy" className="text-slate-500 hover:text-white text-xs tracking-wider transition-colors">
+            <Link
+              to="/cookie-policy"
+              className="text-slate-500 hover:text-white text-xs tracking-wider transition-colors"
+            >
               COOKIES
             </Link>
           </div>

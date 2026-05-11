@@ -4,9 +4,15 @@ export function ContactInfo() {
   const contactDetails = [
     {
       icon: <Mail className="w-6 h-6" />,
-      title: 'Email Us',
-      value: 'drivingafricadigital.ng@gmail.com',
+      title: 'General Inquiries',
+      value: 'hello@drivingafricadigitalserviceslimited.com',
       sub: 'Direct support and general inquiries'
+    },
+    {
+      icon: <Handshake className="w-6 h-6" />,
+      title: 'Partnerships',
+      value: 'partnerships@drivingafricadigitalserviceslimited.com',
+      sub: 'Explore how we can build together'
     },
     {
       icon: <MapPin className="w-6 h-6" />,
