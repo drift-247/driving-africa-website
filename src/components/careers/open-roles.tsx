@@ -20,7 +20,7 @@ export function OpenRoles() {
             </p>
             <div className="flex justify-center">
                <a 
-                 href="mailto:careers@drivingafricadigital.ng" 
+                 href="mailto:careers@drivingafricadigitalserviceslimited.com" 
                  className="bg-accent text-primary px-10 py-4 rounded-xl font-bold uppercase text-xs tracking-widest hover:bg-primary hover:text-white transition-all flex items-center gap-2"
                >
                  Send a Speculative Application <Briefcase className="w-4 h-4" />

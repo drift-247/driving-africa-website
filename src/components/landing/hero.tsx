@@ -1,60 +1,102 @@
+import { motion } from 'framer-motion'
 import { ArrowRight } from 'lucide-react'
-import { Link } from '@tanstack/react-router'
 
 export function Hero() {
   return (
     <section className="relative overflow-hidden pt-20 pb-32">
-      <div className="max-w-7xl mx-auto px-8 grid md:grid-cols-2 gap-16 items-center">
-        {/* Left Content */}
-        <div className="flex flex-col items-start animate-in fade-in slide-in-from-left-8 duration-1000 ease-out">
-          <div className="hero-badge hover:scale-105 transition-transform cursor-default">
+      <motion.div
+        initial={{ opacity: 0, y: 24 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.8, ease: 'easeOut' }}
+        className="max-w-7xl mx-auto px-8 grid md:grid-cols-2 gap-16 items-center"
+      >
+        <motion.div
+          initial={{ opacity: 0, x: -24 }}
+          animate={{ opacity: 1, x: 0 }}
+          transition={{ duration: 0.8, delay: 0.1, ease: 'easeOut' }}
+          className="flex flex-col items-start"
+        >
+          <motion.div
+            whileHover={{ scale: 1.04 }}
+            className="hero-badge cursor-default"
+          >
             BUILDING DIGITAL PRODUCTS FOR AFRICA
-          </div>
-          
-          <h1 className="text-6xl md:text-7xl font-black text-primary mb-8 leading-[1.1] tracking-tight">
+          </motion.div>
+
+          <motion.h1
+            initial={{ opacity: 0, y: 18 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8, delay: 0.15 }}
+            className="text-6xl md:text-7xl font-black text-primary mb-8 leading-[1.1] tracking-tight"
+          >
             Driving Africa Digital Services Limited
-          </h1>
-          
-          <p className="text-lg text-text-muted mb-10 max-w-lg leading-relaxed">
-            We build safety-first digital products designed for the realities of the African market - starting with how people move.
-          </p>
-          
-          <div className="flex flex-wrap gap-4">
-            <Link to="/products">
+          </motion.h1>
+
+          <motion.p
+            initial={{ opacity: 0, y: 18 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8, delay: 0.25 }}
+            className="text-lg text-text-muted mb-10 max-w-lg leading-relaxed"
+          >
+            We build safety-first digital products designed for the realities of
+            the African market - starting with how people move.
+          </motion.p>
+
+          <motion.div
+            initial={{ opacity: 0, y: 18 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8, delay: 0.35 }}
+            className="flex flex-wrap gap-4"
+          >
+            <motion.a
+              whileHover={{ y: -2 }}
+              whileTap={{ scale: 0.98 }}
+              href="/products"
+            >
               <button className="btn-primary">
                 Explore Our Products <ArrowRight className="w-4 h-4" />
               </button>
-            </Link>
-            <Link to="/about">
-              <button className="btn-outline">
-                Our Story
-              </button>
-            </Link>
-          </div>
-        </div>
+            </motion.a>
+            <motion.a
+              whileHover={{ y: -2 }}
+              whileTap={{ scale: 0.98 }}
+              href="/about"
+            >
+              <button className="btn-outline">Our Story</button>
+            </motion.a>
+          </motion.div>
+        </motion.div>
 
-        {/* Right Content - Visual */}
-        <div className="relative animate-in fade-in zoom-in-95 duration-1000 ease-out delay-200 fill-mode-both">
-          {/* Decorative background element */}
-          <div className="absolute -top-10 -right-10 w-full h-full bg-slate-100 rounded-[40px] -z-10 translate-x-4 translate-y-4 shadow-inner"></div>
-          
-          {/* Main Image Container */}
-          <div className="relative rounded-[40px] overflow-hidden shadow-2xl border-8 border-white group">
-            <img 
-              src="/hero-image.png" 
-              alt="Digital Transformation Africa" 
-              className="w-full h-auto object-cover transform group-hover:scale-105 transition-transform duration-2000 ease-out"
+        <motion.div
+          initial={{ opacity: 0, scale: 0.96, x: 24 }}
+          animate={{ opacity: 1, scale: 1, x: 0 }}
+          transition={{ duration: 0.9, delay: 0.2, ease: 'easeOut' }}
+          className="relative"
+        >
+          <motion.div
+            animate={{ y: [0, -6, 0] }}
+            transition={{ duration: 7, repeat: Infinity, ease: 'easeInOut' }}
+            className="absolute -top-10 -right-10 w-full h-full bg-slate-100 rounded-[40px] -z-10 translate-x-4 translate-y-4 shadow-inner"
+          />
+
+          <motion.div
+            whileHover={{ scale: 1.02 }}
+            className="relative rounded-[40px] overflow-hidden shadow-2xl border-8 border-white group"
+          >
+            <motion.img
+              src="/hero-image.png"
+              alt="Digital Transformation Africa"
+              className="w-full h-auto object-cover"
+              whileHover={{ scale: 1.06 }}
+              transition={{ duration: 0.7 }}
             />
-            
-            {/* Subtle glow effect overlay */}
-            <div className="absolute inset-0 bg-linear-to-tr from-primary/30 to-transparent pointer-events-none opacity-50 group-hover:opacity-70 transition-opacity duration-700"></div>
-          </div>
-        </div>
-      </div>
-      
-      {/* Background Decorative Circles */}
-      <div className="absolute -bottom-20 -left-20 w-96 h-96 bg-accent/5 rounded-full blur-3xl -z-20"></div>
-      <div className="absolute top-20 right-0 w-64 h-64 bg-primary/5 rounded-full blur-3xl -z-20"></div>
+            <div className="absolute inset-0 bg-linear-to-tr from-primary/30 to-transparent pointer-events-none opacity-50 group-hover:opacity-70 transition-opacity duration-700" />
+          </motion.div>
+        </motion.div>
+      </motion.div>
+
+      <div className="absolute -bottom-20 -left-20 w-96 h-96 bg-accent/5 rounded-full blur-3xl -z-20" />
+      <div className="absolute top-20 right-0 w-64 h-64 bg-primary/5 rounded-full blur-3xl -z-20" />
     </section>
   )
 }
