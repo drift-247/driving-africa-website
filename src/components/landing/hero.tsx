@@ -3,12 +3,12 @@ import { ArrowRight } from 'lucide-react'
 
 export function Hero() {
   return (
-    <section className="relative overflow-hidden pt-20 pb-32">
+    <section className="relative overflow-hidden pt-12 md:pt-20 pb-20 md:pb-32">
       <motion.div
         initial={{ opacity: 0, y: 24 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8, ease: 'easeOut' }}
-        className="max-w-7xl mx-auto px-8 grid md:grid-cols-2 gap-16 items-center"
+        className="max-w-7xl mx-auto px-6 sm:px-8 grid md:grid-cols-2 gap-10 lg:gap-16 items-center"
       >
         <motion.div
           initial={{ opacity: 0, x: -24 }}
@@ -27,7 +27,7 @@ export function Hero() {
             initial={{ opacity: 0, y: 18 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.15 }}
-            className="text-6xl md:text-7xl font-black text-primary mb-8 leading-[1.1] tracking-tight"
+            className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-black text-primary mb-8 leading-[1.1] tracking-tight"
           >
             Driving Africa Digital Services Limited
           </motion.h1>
@@ -36,7 +36,7 @@ export function Hero() {
             initial={{ opacity: 0, y: 18 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.25 }}
-            className="text-lg text-text-muted mb-10 max-w-lg leading-relaxed"
+            className="text-base sm:text-lg text-text-muted mb-10 max-w-lg leading-relaxed"
           >
             We build safety-first digital products designed for the realities of
             the African market - starting with how people move.
@@ -76,12 +76,12 @@ export function Hero() {
           <motion.div
             animate={{ y: [0, -6, 0] }}
             transition={{ duration: 7, repeat: Infinity, ease: 'easeInOut' }}
-            className="absolute -top-10 -right-10 w-full h-full bg-slate-100 rounded-[40px] -z-10 translate-x-4 translate-y-4 shadow-inner"
+            className="absolute -top-4 -right-4 md:-top-10 md:-right-10 w-full h-full bg-slate-100 rounded-[30px] md:rounded-[40px] -z-10 translate-x-2 md:translate-x-4 translate-y-2 md:translate-y-4 shadow-inner"
           />
 
           <motion.div
             whileHover={{ scale: 1.02 }}
-            className="relative rounded-[40px] overflow-hidden shadow-2xl border-8 border-white group"
+            className="relative rounded-[30px] md:rounded-[40px] overflow-hidden shadow-2xl border-4 md:border-8 border-white group"
           >
             <motion.img
               src="/hero-image.png"

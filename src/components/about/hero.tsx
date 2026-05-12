@@ -7,7 +7,7 @@ export function AboutHero() {
   const y = useTransform(scrollYProgress, [0, 1], [0, 30])
 
   return (
-    <section className="py-24 px-8 max-w-7xl mx-auto grid md:grid-cols-2 gap-16 items-center">
+    <section className="py-16 md:py-24 px-6 sm:px-8 max-w-7xl mx-auto grid md:grid-cols-2 gap-12 lg:gap-16 items-center">
       <motion.div
         initial={{ opacity: 0, x: -24 }}
         whileInView={{ opacity: 1, x: 0 }}
@@ -15,7 +15,7 @@ export function AboutHero() {
         transition={{ duration: 0.7, ease: 'easeOut' }}
       >
         <span className="hero-badge">OUR STORY</span>
-        <h1 className="text-5xl md:text-6xl font-black text-primary mb-8 leading-tight">
+        <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-black text-primary mb-8 leading-tight">
           Built From Experience. Driven by Purpose.
         </h1>
         <p className="text-lg text-text-muted mb-6 leading-relaxed">
@@ -51,13 +51,13 @@ export function AboutHero() {
       <motion.div
         style={{ y }}
         whileHover={{ scale: 1.02 }}
-        className="relative"
+        className="relative mt-12 md:mt-0"
       >
-        <div className="absolute inset-0 bg-slate-100 rounded-[40px] translate-x-4 translate-y-4 -z-10" />
+        <div className="absolute inset-0 bg-slate-100 rounded-[30px] md:rounded-[40px] translate-x-3 md:translate-x-4 translate-y-3 md:translate-y-4 -z-10" />
         <img
           src="/about-hero.png"
           alt="About Drift Africa"
-          className="w-full h-[500px] rounded-[40px] shadow-2xl object-cover"
+          className="w-full h-[300px] sm:h-[400px] md:h-[500px] rounded-[30px] md:rounded-[40px] shadow-2xl object-cover"
         />
       </motion.div>
     </section>

@@ -25,7 +25,7 @@ export function Team() {
   ]
 
   return (
-    <section className="py-24 px-8 max-w-7xl mx-auto">
+    <section className="py-20 md:py-24 px-6 sm:px-8 max-w-7xl mx-auto">
       <motion.div
         initial={{ opacity: 0, y: 16 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -41,7 +41,7 @@ export function Team() {
         </p>
       </motion.div>
 
-      <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
         {team.map((member, i) => (
           <motion.div
             key={member.name}

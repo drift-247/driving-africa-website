@@ -9,8 +9,8 @@ const items = [
 
 export function FeaturedProduct() {
   return (
-    <section className="py-24 bg-primary text-white overflow-hidden">
-      <div className="max-w-7xl mx-auto px-8 grid md:grid-cols-2 gap-16 items-center">
+    <section className="py-20 md:py-24 bg-primary text-white overflow-hidden">
+      <div className="max-w-7xl mx-auto px-6 sm:px-8 grid md:grid-cols-2 gap-12 md:gap-16 items-center">
         <motion.div
           initial={{ opacity: 0, x: -24 }}
           whileInView={{ opacity: 1, x: 0 }}
@@ -41,7 +41,9 @@ export function FeaturedProduct() {
           <span className="text-xs font-bold tracking-[0.3em] text-accent uppercase mb-4 block">
             FLAGSHIP PRODUCT
           </span>
-          <h2 className="text-5xl font-black mb-8">Drift247</h2>
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-black mb-8">
+            Drift247
+          </h2>
           <p className="text-lg text-slate-300 mb-10 leading-relaxed max-w-lg">
             A safety-first ride-hailing platform built for Nigeria. Drift247 was
             born from a firsthand understanding of the gaps in Nigeria&apos;s
@@ -66,18 +68,21 @@ export function FeaturedProduct() {
             ))}
           </ul>
 
-          <div className="flex flex-wrap gap-4">
-            <motion.button
+          <div className="flex flex-col sm:flex-row gap-4">
+            <motion.a
+              href="https://drift247.africa"
+              target="_blank"
+              rel="noopener noreferrer"
               whileHover={{ y: -2, scale: 1.02 }}
               whileTap={{ scale: 0.98 }}
-              className="bg-white text-primary px-10 py-3.5 text-xs font-bold tracking-widest uppercase hover:bg-accent transition-colors"
+              className="bg-white text-primary px-10 py-3.5 text-xs font-bold tracking-widest uppercase hover:bg-accent transition-colors w-full sm:w-auto block text-center"
             >
               Try Drift247
-            </motion.button>
+            </motion.a>
             <motion.button
               whileHover={{ y: -2, scale: 1.02 }}
               whileTap={{ scale: 0.98 }}
-              className="border border-white/30 text-white px-10 py-3.5 text-xs font-bold tracking-widest uppercase hover:bg-white/10 transition-colors"
+              className="border border-white/30 text-white px-10 py-3.5 text-xs font-bold tracking-widest uppercase hover:bg-white/10 transition-colors w-full sm:w-auto"
             >
               View All Products
             </motion.button>
