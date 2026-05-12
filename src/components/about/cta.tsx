@@ -9,9 +9,6 @@ export function AboutCta() {
           <button className="bg-accent text-primary px-8 md:px-10 py-4 text-xs font-bold tracking-widest uppercase hover:bg-white transition-colors w-full sm:w-auto">
             View Job Opportunities
           </button>
-          <button className="border border-white/30 text-white px-8 md:px-10 py-4 text-xs font-bold tracking-widest uppercase hover:bg-white/10 transition-colors w-full sm:w-auto">
-            Join the Team
-          </button>
         </div>
       </div>
     </section>

@@ -1,13 +1,13 @@
 @import 'tailwindcss';
 /* @import '@tailwindcss/typography'; */
-@import '@fontsource/montserrat-alternates';
+@import '@fontsource/inter';
 
 @theme {
   --color-primary: #001f3f;
   --color-accent: #f0c05a;
   --color-text-muted: #666666;
   
-  --font-montserrat: 'Montserrat Alternates', sans-serif;
+  --font-inter: 'Inter', sans-serif;
 }
 
 * {
@@ -16,7 +16,7 @@
 
 body {
   margin: 0;
-  font-family: var(--font-montserrat);
+  font-family: var(--font-inter);
   color: var(--color-primary);
   background-color: #ffffff;
 }

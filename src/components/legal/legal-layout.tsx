@@ -16,7 +16,7 @@ interface LegalLayoutProps {
 
 export function LegalLayout({ title, lastUpdated, description, cards, children }: LegalLayoutProps) {
   return (
-    <main className="min-h-screen bg-white pt-32 pb-24 font-montserrat">
+    <main className="min-h-screen bg-white pt-32 pb-24 font-inter">
       <div className="max-w-7xl mx-auto px-8">
         {/* Header Badge */}
         <div className="flex items-center gap-2 text-primary/40 font-bold tracking-[0.2em] text-[10px] uppercase mb-4">
