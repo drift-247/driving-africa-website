@@ -1,3 +1,4 @@
+import { Link } from '@tanstack/react-router'
 import { motion } from 'framer-motion'
 import { CircleCheck } from 'lucide-react'
 
@@ -84,7 +85,7 @@ export function FeaturedProduct() {
               whileTap={{ scale: 0.98 }}
               className="border border-white/30 text-white px-10 py-3.5 text-xs font-bold tracking-widest uppercase hover:bg-white/10 transition-colors w-full sm:w-auto"
             >
-              View All Products
+              <Link to="/products">View All Products</Link>
             </motion.button>
           </div>
         </motion.div>
