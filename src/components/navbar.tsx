@@ -37,7 +37,7 @@ export function Navbar() {
           </Link>
 
           {/* Desktop Links - Matching the screenshot underline style */}
-          <div className="hidden md:flex items-center space-x-8">
+          <div className="hidden lg:flex items-center space-x-6 xl:space-x-8">
             {NAV_LINKS.map((link) => {
               const isActive =
                 currentPath ===
@@ -60,7 +60,7 @@ export function Navbar() {
           </div>
 
           {/* Action Button - Matching the dark navy rounded box */}
-          <div className="hidden md:block">
+          <div className="hidden lg:block">
             <Link to="/products">
               <button className="bg-[#0A2540] text-white px-6 py-2.5 rounded text-[10px] font-bold tracking-widest uppercase hover:bg-slate-800 transition-all">
                 GET STARTED
@@ -69,7 +69,7 @@ export function Navbar() {
           </div>
 
           {/* Mobile Menu Button */}
-          <div className="md:hidden flex items-center">
+          <div className="lg:hidden flex items-center">
             <button
               onClick={() => setIsOpen(!isOpen)}
               className="text-[#0A2540] p-2"
@@ -81,7 +81,7 @@ export function Navbar() {
 
         {/* Mobile Menu Dropdown - Matches the clean, white aesthetic */}
         <div
-          className={`md:hidden overflow-hidden transition-all duration-300 ease-in-out ${
+          className={`lg:hidden overflow-hidden transition-all duration-300 ease-in-out ${
             isOpen ? 'max-h-[400px] border-t border-gray-100' : 'max-h-0'
           }`}
         >
