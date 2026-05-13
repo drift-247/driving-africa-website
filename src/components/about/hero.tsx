@@ -20,23 +20,36 @@ export function AboutHero() {
         </h1>
         <p className="text-lg text-text-muted mb-6 leading-relaxed">
           Driving Africa Digital Services Limited was founded in 2026 by Isaac
-          Nnamdi and Sarah Effiong — two people who saw the same problem from
+          Nnamdi and Sarah Effiong - two people who saw the same problem from
           very different angles.
         </p>
 
         <motion.div
           initial={false}
           animate={{
-            maxHeight: isExpanded ? 1000 : 0,
+            maxHeight: isExpanded ? 2000 : 0,
             opacity: isExpanded ? 1 : 0,
           }}
           transition={{ duration: 0.5 }}
           className="overflow-hidden"
         >
           <p className="text-lg text-text-muted mb-6 leading-relaxed">
-            {
-              'Our mission is simple: build digital products that feel local, reliable, and genuinely useful.'
-            }
+            Isaac spent years behind the wheel as a driver on platforms like
+            Uber. He saw firsthand what the existing system got wrong: drivers
+            treated as an afterthought, no real community, and passengers with
+            genuine safety concerns that nobody was seriously addressing. He
+            knew there was a better way to build this.
+          </p>
+          <p className="text-lg text-text-muted mb-6 leading-relaxed">
+            Sarah brought the technical firepower. A seasoned backend and AI/ML
+            engineer with years of experience leading engineering and product
+            teams, she understood exactly what it would take to build a platform
+            that could hold up at scale and do it right.
+          </p>
+          <p className="text-lg text-text-muted mb-6 leading-relaxed font-semibold">
+            Together, they founded Drift247: a safety-first ride-hailing
+            platform built specifically for Nigeria, with plans to expand across
+            Africa.
           </p>
         </motion.div>
 
