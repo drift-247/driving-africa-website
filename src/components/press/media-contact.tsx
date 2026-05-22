@@ -27,7 +27,7 @@ export function MediaContact() {
                 </span>
                 <a
                   href="mailto:press@drivingafricadigitalserviceslimited.com"
-                  className="text-2xl md:text-3xl font-black text-primary hover:text-accent transition-colors"
+                  className="text-xs sm:text-base md:text-lg lg:text-xl font-black text-primary hover:text-accent transition-colors break-all"
                 >
                   press@drivingafricadigitalserviceslimited.com
                 </a>
@@ -45,7 +45,7 @@ export function MediaContact() {
                 </span>
                 <a
                   href="tel:+254204409000"
-                  className="text-2xl md:text-3xl font-black text-primary hover:text-accent transition-colors"
+                  className="text-lg md:text-2xl font-black text-primary hover:text-accent transition-colors"
                 >
                   +254 (0) 20 440 9000
                 </a>
