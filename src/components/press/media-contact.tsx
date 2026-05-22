@@ -1,4 +1,4 @@
-import { Mail, Phone, Share2, Globe } from 'lucide-react'
+import { Mail, Share2, Globe } from 'lucide-react'
 
 export function MediaContact() {
   return (
@@ -30,24 +30,6 @@ export function MediaContact() {
                   className="text-xs sm:text-base md:text-lg lg:text-xl font-black text-primary hover:text-accent transition-colors break-all"
                 >
                   press@drivingafricadigitalserviceslimited.com
-                </a>
-              </div>
-            </div>
-
-            {/* Phone */}
-            <div className="flex items-start gap-6">
-              <div className="w-12 h-12 bg-slate-50 rounded-xl flex items-center justify-center shrink-0">
-                <Phone className="w-6 h-6 text-primary" />
-              </div>
-              <div>
-                <span className="text-[10px] font-bold tracking-widest text-slate-400 uppercase block mb-1">
-                  OFFICE PHONE
-                </span>
-                <a
-                  href="tel:+254204409000"
-                  className="text-lg md:text-2xl font-black text-primary hover:text-accent transition-colors"
-                >
-                  +254 (0) 20 440 9000
                 </a>
               </div>
             </div>
