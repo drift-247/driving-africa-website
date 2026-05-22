@@ -26,10 +26,10 @@ export function MediaContact() {
                   EMAIL ADDRESS
                 </span>
                 <a
-                  href="mailto:press@holdco-tech.africa"
+                  href="mailto:press@drivingafricadigitalserviceslimited.com"
                   className="text-2xl md:text-3xl font-black text-primary hover:text-accent transition-colors"
                 >
-                  press@holdco-tech.africa
+                  press@drivingafricadigitalserviceslimited.com
                 </a>
               </div>
             </div>
