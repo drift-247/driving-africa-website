@@ -36,13 +36,15 @@ export function Features() {
             <span className="font-bold text-accent">Drift247</span>, is tackling
             Nigeria&apos;s most pressing daily challenges.
           </p>
-          <motion.button
-            whileHover={{ scale: 1.03 }}
-            whileTap={{ scale: 0.98 }}
-            className="whitespace-nowrap px-8 py-3 bg-[#0A2540] text-white rounded-full font-bold text-sm hover:scale-105 transition-transform"
-          >
-            Learn About Drift247
-          </motion.button>
+          <a href="https://drift247.africa">
+            <motion.button
+              whileHover={{ scale: 1.03 }}
+              whileTap={{ scale: 0.98 }}
+              className="whitespace-nowrap px-8 py-3 bg-[#0A2540] text-white rounded-full font-bold text-sm hover:scale-105 transition-transform"
+            >
+              Learn About Drift247
+            </motion.button>
+          </a>
         </motion.div>
       </div>
     </section>

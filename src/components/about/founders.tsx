@@ -5,7 +5,7 @@ export function Founders() {
     {
       name: 'Isaac Nnamdi',
       role: 'Founder & CEO',
-      img: '/team/isaac-nnamdi-ceo.jpg',
+      img: '/Isaac-founder.jpg.jpeg',
       email: 'isaac.nnamdi@drivingafricadigitalserviceslimited.com',
       linkedin:
         'https://www.linkedin.com/in/isaac-nnamdi-28601819a?utm_source=share_via&utm_content=profile&utm_medium=member_android',

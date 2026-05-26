@@ -23,7 +23,9 @@ export function CareersHero() {
           whileTap={{ scale: 0.98 }}
           className="btn-primary px-12 py-4 mx-auto"
         >
-          View Opportunities
+          <a href="mailto:careers@drivingafricadigitalserviceslimited.com">
+            View Opportunities
+          </a>
         </motion.button>
       </motion.div>
     </section>

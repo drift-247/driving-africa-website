@@ -1,5 +1,5 @@
 import { Link } from '@tanstack/react-router'
-import { Globe, AtSign } from 'lucide-react'
+import { Instagram, Linkedin } from 'lucide-react'
 
 export function Footer() {
   const currentYear = new Date().getFullYear()
@@ -40,8 +40,24 @@ export function Footer() {
               software engineering, product design, and market-entry strategy.
             </p>
             <div className="flex items-center space-x-4 pt-2">
-              <Globe className="w-5 h-5 text-white cursor-pointer hover:text-slate-300 transition-colors" />
-              <AtSign className="w-5 h-5 text-white cursor-pointer hover:text-slate-300 transition-colors" />
+              <a
+                href="https://www.instagram.com/drift247_ng?igsh=a2RjdmVydjQ2aW80"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Driving Africa on Instagram"
+                className="text-white hover:text-accent transition-colors"
+              >
+                <Instagram className="w-5 h-5" />
+              </a>
+              <a
+                href="https://www.linkedin.com/company/driving-africa-digital-services-limited/"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Driving Africa on LinkedIn"
+                className="text-white hover:text-accent transition-colors"
+              >
+                <Linkedin className="w-5 h-5" />
+              </a>
             </div>
           </div>
 

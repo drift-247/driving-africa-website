@@ -19,9 +19,7 @@ export function AboutHero() {
           Built From Experience. Driven by Purpose.
         </h1>
         <p className="text-lg text-text-muted mb-6 leading-relaxed">
-          Driving Africa Digital Services Limited was founded in 2026 by Isaac
-          Nnamdi and Sarah Effiong - two people who saw the same problem from
-          very different angles.
+          Isaac Nnamdi is the Founder and CEO of Drift247, a mobility platform built to redefine ride-hailing for both drivers and passengers across Nigeria and beyond.
         </p>
 
         <motion.div
@@ -34,22 +32,16 @@ export function AboutHero() {
           className="overflow-hidden"
         >
           <p className="text-lg text-text-muted mb-6 leading-relaxed">
-            Isaac spent years behind the wheel as a driver on platforms like
-            Uber. He saw firsthand what the existing system got wrong: drivers
-            treated as an afterthought, no real community, and passengers with
-            genuine safety concerns that nobody was seriously addressing. He
-            knew there was a better way to build this.
+            With over a decade of driving experience using ride-hailing services within Nigeria, Isaac Nnamdi has gained deep insight into the everyday realities drivers and passengers face, from poor driver welfare and unpaid wait times to safety concerns, vehicle breakdowns, and the lack of genuine support systems within the industry.
           </p>
           <p className="text-lg text-text-muted mb-6 leading-relaxed">
-            Sarah brought the technical firepower. A seasoned backend and AI/ML
-            engineer with years of experience leading engineering and product
-            teams, she understood exactly what it would take to build a platform
-            that could hold up at scale and do it right.
+            Driven by a deep passion for mobility, people, and problem-solving. Isaac Nnamdi founded Drift247 to bridge these gaps and create a platform that prioritizes fairness, safety, reliability, and community. His vision was shaped not only by his professional experience as a driver, but also by real-life encounters that exposed the limitations of existing transport systems within the Nigerian environment.
+          </p>
+          <p className="text-lg text-text-muted mb-6 leading-relaxed">
+            Under his leadership, Drift247 is being built as more than just a ride-hailing platform, but as a people-focused ecosystem designed to improve the experience, dignity, and opportunities of both drivers and passengers.
           </p>
           <p className="text-lg text-text-muted mb-6 leading-relaxed font-semibold">
-            Together, they founded Drift247: a safety-first ride-hailing
-            platform built specifically for Nigeria, with plans to expand across
-            Africa.
+            Isaac Nnamdi currently leads the company’s vision, growth, partnerships, and strategic direction from the United Kingdom.
           </p>
         </motion.div>
 

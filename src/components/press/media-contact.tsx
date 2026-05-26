@@ -1,4 +1,4 @@
-import { Mail, Share2, Globe } from 'lucide-react'
+import { Mail, Instagram, Linkedin } from 'lucide-react'
 
 export function MediaContact() {
   return (
@@ -29,7 +29,7 @@ export function MediaContact() {
                   href="mailto:press@drivingafricadigitalserviceslimited.com"
                   className="text-xs sm:text-base md:text-lg lg:text-xl font-black text-primary hover:text-accent transition-colors break-all"
                 >
-                  press@drivingafricadigitalserviceslimited.com
+                  hello@drivingafricadigitalserviceslimited.com
                 </a>
               </div>
             </div>
@@ -41,12 +41,24 @@ export function MediaContact() {
               hours.
             </p>
             <div className="flex gap-4">
-              <button className="w-10 h-10 rounded-full border border-slate-200 flex items-center justify-center text-slate-400 hover:bg-primary hover:text-white hover:border-primary transition-all">
-                <Share2 className="w-4 h-4" />
-              </button>
-              <button className="w-10 h-10 rounded-full border border-slate-200 flex items-center justify-center text-slate-400 hover:bg-primary hover:text-white hover:border-primary transition-all">
-                <Globe className="w-4 h-4" />
-              </button>
+              <a
+                href="https://www.instagram.com/drift247_ng?igsh=a2RjdmVydjQ2aW80"
+                target="_blank"
+                rel="noopener noreferrer"
+                title="Drift247 on Instagram"
+                className="w-10 h-10 rounded-full border border-slate-200 flex items-center justify-center text-slate-400 hover:bg-primary hover:text-white hover:border-primary transition-all"
+              >
+                <Instagram className="w-4 h-4" />
+              </a>
+              <a
+                href="https://www.linkedin.com/company/driving-africa-digital-services-limited/"
+                target="_blank"
+                rel="noopener noreferrer"
+                title="Driving Africa on LinkedIn"
+                className="w-10 h-10 rounded-full border border-slate-200 flex items-center justify-center text-slate-400 hover:bg-primary hover:text-white hover:border-primary transition-all"
+              >
+                <Linkedin className="w-4 h-4" />
+              </a>
             </div>
           </div>
         </div>

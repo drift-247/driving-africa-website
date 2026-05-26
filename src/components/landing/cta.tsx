@@ -27,7 +27,7 @@ export function Cta() {
         </div>
 
         <motion.a
-          href="mailto:hello@drivingafricadigitalserviceslimited.com,partnerships@drivingafricadigitalserviceslimited.com"
+          href="/press"
           whileHover={{ scale: 1.03, y: -2 }}
           whileTap={{ scale: 0.98 }}
           className="relative z-10 bg-primary text-white px-10 py-4 text-xs font-bold tracking-[0.2em] uppercase rounded-lg hover:bg-black transition-colors shadow-2xl block text-center w-full md:w-auto"
