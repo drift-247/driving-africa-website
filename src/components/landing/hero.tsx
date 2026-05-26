@@ -20,7 +20,7 @@ export function Hero() {
             whileHover={{ scale: 1.04 }}
             className="hero-badge cursor-default"
           >
-            BUILDING DIGITAL PRODUCTS FOR AFRICA
+            NEW & BETTER WAY
           </motion.div>
 
           <motion.h1
@@ -84,7 +84,7 @@ export function Hero() {
             className="relative rounded-[30px] md:rounded-[40px] overflow-hidden shadow-2xl border-4 md:border-8 border-white group"
           >
             <motion.img
-              src="/hero-image.png"
+              src="/DA-hero.png"
               alt="Digital Transformation Africa"
               className="w-full h-auto object-cover"
               whileHover={{ scale: 1.06 }}
