@@ -39,10 +39,10 @@ export function AboutHero() {
             Isaac Nnamdi - Founder & CEO
           </p>
           <p className="text-lg text-text-muted mb-4 leading-relaxed">
-            With over a decade of driving experience using ride-hailing services within Nigeria, Isaac gained deep insight into the everyday realities drivers and passengers face - from poor driver welfare and unpaid wait times to safety concerns, vehicle breakdowns, and the lack of genuine support systems within the industry.
+            With over a decade of driving experience using ride-hailing services within Nigeria and Abroad, Isaac gained deep insight into the everyday realities drivers and passengers face - from poor driver welfare and unpaid wait times to safety concerns, vehicle breakdowns, and the lack of genuine support systems within the industry.
           </p>
           <p className="text-lg text-text-muted mb-4 leading-relaxed">
-            Driven by a deep passion for mobility, people, and problem-solving, Isaac founded Drift247 to bridge these gaps and create a platform that prioritises fairness, safety, reliability, and community. His vision was shaped not only by his professional experience as a driver, but also by real-life encounters that exposed the limitations of existing transport systems within the Nigerian environment.
+            Driven by a deep passion for mobility, people, and problem-solving, Isaac founded Drift247 to bridge these gaps and create a platform that prioritises fairness, safety, reliability, and community. His vision was shaped by his professional experience as a driver in the UK, and a deep understanding of the gaps within existing transport systems in the Nigerian environment.
           </p>
           <p className="text-lg text-text-muted mb-4 leading-relaxed">
             Under his leadership, Drift247 is being built as more than just a ride-hailing platform - but as a people-focused ecosystem designed to improve the experience, dignity, and opportunities of both drivers and passengers.
@@ -53,7 +53,7 @@ export function AboutHero() {
 
           {/* Sarah */}
           <p className="text-base font-bold text-primary mb-2 uppercase tracking-wide">
-            Sarah Effiong - Co-Founder & CTO
+            Sarah Effiong — Co-Founder & CTO
           </p>
           <p className="text-lg text-text-muted mb-8 leading-relaxed">
             Sarah brought the technical firepower. A seasoned backend and AI/ML engineer with years of experience leading engineering and product teams, she understood exactly what it would take to build a platform that could hold up at scale - and do it right.
