@@ -9,7 +9,7 @@ export function Founders() {
       email: 'isaac.nnamdi@drivingafricadigitalserviceslimited.com',
       linkedin:
         'https://www.linkedin.com/in/isaac-nnamdi-28601819a?utm_source=share_via&utm_content=profile&utm_medium=member_android',
-      bio: "Isaac knows the ride-hailing industry from the inside out. Having driven on platforms like Uber, he experienced firsthand the gaps in driver welfare, community, and passenger safety that existing platforms ignored. That experience became the foundation of Drift247. Isaac leads the company's vision, strategy, and growth from the UK.",
+      bio: "Isaac Nnamdi  Founder & CEO Building businesses that improve lives. Inspired by real-world experiences and driven by a passion for solving problems, he founded Drift247 to build a people-first mobility platform centred on trust, innovation, and exceptional service. Today, he leads the company's vision, strategy, partnerships, and long-term growth from the United Kingdom, with a commitment to building technology that improves lives.",
     },
     {
       name: 'Sarah Effiong',
