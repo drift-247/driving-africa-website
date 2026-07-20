@@ -3,9 +3,9 @@ import { motion } from 'framer-motion'
 import { CircleCheck } from 'lucide-react'
 
 const items = [
+  'Customer-first ride experience',
   'Verified driver onboarding',
-  'Wallet-protected payments',
-  'Real-time safety monitoring',
+  'Real-time trip visibility',
 ]
 
 export function FeaturedProduct() {
@@ -46,11 +46,8 @@ export function FeaturedProduct() {
             Drift247
           </h2>
           <p className="text-lg text-slate-300 mb-10 leading-relaxed max-w-lg">
-            A safety-first ride-hailing platform built for Nigeria. Drift247 was
-            born from a firsthand understanding of the gaps in Nigeria&apos;s
-            transportation sector - unreliable rides, driver welfare neglect,
-            and a lack of trust between riders and drivers. We&apos;re fixing
-            that from the ground up.
+            Drift247 is our flagship mobility platform, built for Nigeria and designed around the way people move every day. It brings together comfort, reliability, trust, and customer-first technology to create a better ride experience for riders and drivers. 
+
           </p>
 
           <ul className="space-y-4 mb-12">

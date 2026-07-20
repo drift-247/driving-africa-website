@@ -17,9 +17,7 @@ export function Features() {
             </h2>
             <div className="h-1 w-20 bg-accent rounded-full mx-auto" />
             <p className="text-lg md:text-xl text-slate-600 leading-relaxed">
-              Africa&apos;s digital economy is growing fast - but too many
-              people are still underserved. We build technology thoughtfully
-              designed for local infrastructure and local needs.
+              Africa’s digital economy is growing fast, but many everyday experiences still need products designed around local realities. We build technology for African users, infrastructure, and market needs - starting with Drift247, our flagship mobility platform built to improve how people move every day.
             </p>
           </motion.div>
         </div>

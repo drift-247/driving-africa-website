@@ -4,12 +4,12 @@ export function Founders() {
   const founders = [
     {
       name: 'Isaac Nnamdi',
-      role: 'Founder & CEO',
+      role: 'Founder & Chief Executive Officer',
       img: '/Isaac-founder.jpg.jpeg',
       email: 'isaac.nnamdi@drivingafricadigitalserviceslimited.com',
       linkedin:
         'https://www.linkedin.com/in/isaac-nnamdi-28601819a?utm_source=share_via&utm_content=profile&utm_medium=member_android',
-      bio: "Isaac Nnamdi  Founder & CEO Building businesses that improve lives. Inspired by real-world experiences and driven by a passion for solving problems, he founded Drift247 to build a people-first mobility platform centred on trust, innovation, and exceptional service. Today, he leads the company's vision, strategy, partnerships, and long-term growth from the United Kingdom, with a commitment to building technology that improves lives.",
+      bio: "Isaac Nnamdi is the Founder and Chief Executive Officer of Driving Africa Digital Services Limited. Passionate about business, leadership, and solving real-world problems through technology, he founded Drift247 with a clear vision: to build a customer-first mobility platform that is safe, dependable, and designed around the everyday needs of people across Africa. As CEO, Isaac leads the company's vision, business strategy, partnerships, and long-term growth from the United Kingdom. Guided by his personal philosophy - Build with Purpose. Lead with Love. Serve with Excellence. - He is committed to building technology that improves lives, creates opportunities, and contributes to Africa's future.",
     },
     {
       name: 'Sarah Effiong',
@@ -18,7 +18,7 @@ export function Founders() {
       email: 'sarah.effiong@drivingafricadigitalserviceslimited.com',
       linkedin:
         'https://www.linkedin.com/in/sarah-i-effiong-09913a210?utm_source=share_via&utm_content=profile&utm_medium=member_android',
-      bio: 'Sarah is a seasoned backend and AI/ML engineer with extensive experience building and leading technical teams. She has served as both a technical lead and product lead across multiple projects, and brings the engineering depth and product thinking needed to build Drift247 the right way — from infrastructure to user experience.',
+      bio: 'Sarah Effiong is the Co-Founder and Chief Technology Officer of Driving Africa Digital Services Limited. As an experienced software engineer and AI specialist, she leads the company’s technology strategy, engineering execution, and product development. Working closely with the engineering team, Sarah helps transform ambitious ideas into scalable, secure, and reliable technology products. Her leadership supports the development of Drift247 and the wider technology foundation of Driving Africa Digital Services Limited.',
     },
   ]
 

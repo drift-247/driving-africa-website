@@ -18,9 +18,9 @@ export function Team() {
       img: '/team/stella.jpeg',
     },
     {
-      name: 'Borngreat Ikwutah',
-      role: 'Frontend Engineer',
-      img: '/team/borngreat.png',
+      name: 'Abubaka Abdulsalam',
+      role: 'Frontend Developer',
+      img: '/team/abubaka.jpeg',
     },
   ]
 

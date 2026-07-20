@@ -14,18 +14,22 @@ export function AboutHero() {
         viewport={{ once: true, amount: 0.3 }}
         transition={{ duration: 0.7, ease: 'easeOut' }}
       >
-        <span className="hero-badge">OUR STORY</span>
+        <span className="hero-badge">OUR ORIGIN</span>
         <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-black text-primary mb-8 leading-tight">
-          Built From Experience. Driven by Purpose.
+          Two Builders. One Mission.
         </h1>
 
         {/* Always visible intro */}
         <p className="text-lg text-text-muted mb-6 leading-relaxed">
-          Driving Africa Digital Services Limited was founded in 2026 by Isaac Nnamdi and Sarah Effiong - two people who saw the same problem from very different angles.
+          Driving Africa Digital Services Limited was founded by Isaac Nnamdi and Sarah Effiong — two leaders united by a shared vision to build technology that solves real problems, creates opportunities, and improves everyday life across Africa.
+
+          Together, they are building Drift247, a customer-first mobility platform created for the realities of everyday movement in Nigeria and designed to grow across Africa.
+
+
         </p>
 
         {/* Expandable section */}
-        <motion.div
+        {/* <motion.div
           initial={false}
           animate={{
             maxHeight: isExpanded ? 2000 : 0,
@@ -33,9 +37,9 @@ export function AboutHero() {
           }}
           transition={{ duration: 0.5 }}
           className="overflow-hidden"
-        >
+        > */}
           {/* Isaac */}
-          <p className="text-base font-bold text-primary mb-2 uppercase tracking-wide">
+          {/* <p className="text-base font-bold text-primary mb-2 uppercase tracking-wide">
             Isaac Nnamdi - Founder & CEO
           </p>
           <p className="text-lg text-text-muted mb-4 leading-relaxed">
@@ -49,28 +53,28 @@ export function AboutHero() {
           </p>
           <p className="text-lg text-text-muted mb-8 leading-relaxed font-semibold">
             Isaac currently leads the company's vision, growth, partnerships, and strategic direction from the United Kingdom.
-          </p>
+          </p> */}
 
           {/* Sarah */}
-          <p className="text-base font-bold text-primary mb-2 uppercase tracking-wide">
+          {/* <p className="text-base font-bold text-primary mb-2 uppercase tracking-wide">
             Sarah Effiong — Co-Founder & CTO
           </p>
           <p className="text-lg text-text-muted mb-8 leading-relaxed">
             Sarah brought the technical firepower. A seasoned backend and AI/ML engineer with years of experience leading engineering and product teams, she understood exactly what it would take to build a platform that could hold up at scale - and do it right.
-          </p>
+          </p> */}
 
           {/* Closing */}
-          <p className="text-lg text-text-muted mb-6 leading-relaxed">
+          {/* <p className="text-lg text-text-muted mb-6 leading-relaxed">
             Together, they founded Drift247: a safety-first ride-hailing platform built specifically for Nigeria, with plans to expand across Africa.
           </p>
-        </motion.div>
+        </motion.div> */}
 
-        <button
+        {/* <button
           className="btn-primary"
           onClick={() => setIsExpanded((v) => !v)}
         >
           {isExpanded ? 'Show Less' : 'Read More'}
-        </button>
+        </button> */}
       </motion.div>
 
       <motion.div

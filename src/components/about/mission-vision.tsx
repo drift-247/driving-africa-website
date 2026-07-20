@@ -8,7 +8,7 @@ export function MissionVision() {
            <Rocket className="w-8 h-8 text-accent mb-8 group-hover:scale-110 transition-transform" />
            <h2 className="text-3xl font-black mb-6">Our Mission</h2>
            <p className="text-slate-300 text-lg leading-relaxed">
-             To build digital products that solve real problems for African users — starting with safety, trust, and reliability in everyday transportation.
+             To build digital products that solve real problems for African users, starting with reliable, comfortable, and customer-first mobility. 
            </p>
         </div>
         
@@ -28,7 +28,7 @@ export function MissionVision() {
         <Eye className="w-8 h-8 text-primary mb-8 group-hover:rotate-12 transition-transform" />
         <h2 className="text-3xl font-black text-primary mb-6">Our Vision</h2>
         <p className="text-text-muted text-lg leading-relaxed max-w-4xl">
-          To become Africa's most trusted digital products company, expanding from mobility into every layer of African daily life.
+          To become one of Africa’s most trusted digital product companies, creating solutions that improve how people move, connect, and access everyday services.
         </p>
       </div>
     </section>

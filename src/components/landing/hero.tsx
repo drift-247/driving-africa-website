@@ -38,8 +38,7 @@ export function Hero() {
             transition={{ duration: 0.8, delay: 0.25 }}
             className="text-base sm:text-lg text-text-muted mb-10 max-w-lg leading-relaxed"
           >
-            We build safety-first digital products designed for the realities of
-            the African market - starting with how people move.
+            Driving Africa Digital Services Ltd builds customer-focused digital products designed for the realities of African markets - starting with Drift247, our mobility platform built around comfort, reliability, and everyday movement. 
           </motion.p>
 
           <motion.div

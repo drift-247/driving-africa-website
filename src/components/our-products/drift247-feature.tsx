@@ -13,19 +13,17 @@ export function Drift247Feature() {
           </div>
 
           <p className="text-text-muted mb-12 leading-relaxed">
-            Nigeria's safety-first ride-hailing platform. Built from firsthand
-            experience of the gaps in Nigeria's transportation sector — driver
-            welfare, passenger safety, and payment reliability. Drift247
-            addresses all three from the ground up.
+            Drift247 is a customer-first mobility platform built for Nigeria. Designed around comfort, reliability, trust, and everyday movement, Drift247 is being built to improve the ride experience for both riders and drivers.
+
           </p>
 
           <div className="grid grid-cols-2 gap-8 mb-12">
             <div className="flex items-start gap-3">
               <ShieldCheck className="w-5 h-5 text-accent shrink-0" />
               <div>
-                <h4 className="text-sm font-bold text-primary">Safety First</h4>
+                <h4 className="text-sm font-bold text-primary">Verified Driver Onboarding</h4>
                 <p className="text-[10px] text-text-muted uppercase tracking-widest mt-1">
-                  Verified driver onboarding
+                  Supporting trust from the start
                 </p>
               </div>
             </div>
@@ -33,19 +31,19 @@ export function Drift247Feature() {
               <Wallet className="w-5 h-5 text-accent shrink-0" />
               <div>
                 <h4 className="text-sm font-bold text-primary">
-                  Wallet Payments
+                  Secure Payments 
                 </h4>
                 <p className="text-[10px] text-text-muted uppercase tracking-widest mt-1">
-                  Cashless & Secure
+                  Designed for clearer, more dependable transactions
                 </p>
               </div>
             </div>
             <div className="flex items-start gap-3">
               <Users className="w-5 h-5 text-accent shrink-0" />
               <div>
-                <h4 className="text-sm font-bold text-primary">Driver Hub</h4>
+                <h4 className="text-sm font-bold text-primary">Customer-First Experience</h4>
                 <p className="text-[10px] text-text-muted uppercase tracking-widest mt-1">
-                  Community Support
+                  Built around real rider and driver needs
                 </p>
               </div>
             </div>
@@ -53,10 +51,10 @@ export function Drift247Feature() {
               <ShieldCheck className="w-5 h-5 text-accent shrink-0" />
               <div>
                 <h4 className="text-sm font-bold text-primary">
-                  Real-Time Tracking
+                  Real-Time Trip Visibility
                 </h4>
                 <p className="text-[10px] text-text-muted uppercase tracking-widest mt-1">
-                  Live trip monitoring
+                  Helping users stay informed throughout the ride
                 </p>
               </div>
             </div>
