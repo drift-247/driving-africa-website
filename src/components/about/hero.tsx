@@ -21,7 +21,7 @@ export function AboutHero() {
 
         {/* Always visible intro */}
         <p className="text-lg text-text-muted mb-6 leading-relaxed">
-          Driving Africa Digital Services Limited was founded by Isaac Nnamdi and Sarah Effiong — two leaders united by a shared vision to build technology that solves real problems, creates opportunities, and improves everyday life across Africa.
+          Driving Africa Digital Services Limited was founded by Isaac Nnamdi and Sarah Effiong - two leaders united by a shared vision to build technology that solves real problems, creates opportunities, and improves everyday life across Africa.
 
           Together, they are building Drift247, a customer-first mobility platform created for the realities of everyday movement in Nigeria and designed to grow across Africa.
 
